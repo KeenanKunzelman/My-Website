@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>
+    </title>
+    <style media="screen">
+
+.jumbotron{
+  background-image: url(jumbo.png);
+  background-size: 100%
+}
+    #lol{
+
+      min-height: 1000px;
+    }
+    #Port{
+
+      min-height: 1000px;
+    }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
+    <div class="container-fluid">
+
+<div class="container-fluid">
+  <nav class="navbar navbar-inverse bg-inverse fixed-top " role="navigation">
+    <div class="row">
+      <div class="col-md-8">
+
+      </div>
+    <div class="col-lg-1">
+
+    </div>
+    <div class="col-lg-1">
+      <a href="#About" id="btn" class="btn btn-outline-secondary"> About</a>
+    </div>
+    <div class="col-lg-1">
+      <a href="#Port" id="btn3" class="btn btn-outline-secondary"> Contact</a>
+    </div>
+    <div class="col-lg-1">
+      <a href="#Port" id="btn2" class="btn btn-outline-secondary"> Portfolio</a>
+
+    </div>
+
+
+
+    </div>
+
+</nav>
+<script type="text/javascript">
+
+$(function() {
+var contactpos = $("#contact").offset();
+var p = $("#portf").offset();
+
+
+
+
+
+
+$("#btn").on("click", function(e){
+e.preventDefault();
+
+$("html, body").animate({ scrollTop: "0px" }, 'swing');
+
+    });
+
+    $("#btn2").on("click", function(e){
+    e.preventDefault();
+
+    $("html, body").animate({ scrollTop: (p.top - 43) } , 'swing');
+
+        });
+        $("#btn3").on("click", function(e){
+        e.preventDefault();
+
+        $("html, body").animate({ scrollTop: contactpos.top  }, 'swing');
+
+            });
+
+
+});
+
+
+
+
+
+</script>
+</div>
+<a id="About"></a>
+<div  class="jumbotron">
+  <h1 style="color: white; padding-top: 40px" class=" text-lg-center display-3"><b>Keenan Kunzelman</b></h1>
+
+
+
+</div>
+
+
+<div class="container-fluid">
+
+    <div  class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="text-center"><b>About Me</b></h2>
+          <p class="text-center lead">My Name is Keenan Kunzelman and I am a Computer Information Systems student at Dutchess Community College. I am soon to be a Computer Science student at Suny Plattsburgh I have been learning C#, Python, HTML, CSS, Bootstrap, javascript and basic networking principles over the past few years. I look forward to see what else I can learn from Suny Plattsburgh. In my free time I enjoy Skateboarding, Snowboarding, and lately learning web development. </p>
+          <div class="row">
+            <div class="col-md-4">
+              <h1 class="display-4 text-center">C#</h1>
+              <p class="text-info text-center">I have been using C# in a .NET environment for the past year for my classes creating projects ranging from basic console applications to Windows UWP applications. From a starting point of learning COBOL I have grown to love C# and the power of Object Oriented Programming. </p>
+            </div>
+            <div id="portf"class="col-md-4">
+              <h1  class="display-4 text-center">Python</h1>
+              <p class="text-info text-center">Before I enrolled at Dutchess Community College I began taking the free computer science course at Udacity which is taught in the Python language. After a few months of hard work I was able to solve one of my real world problems with a Python Script. I wrote a peice of python that used twillio to check my colleges website for cancelled classes and would text me if I had a class cancelled.</p>
+            </div>
+            <div class="col-md-4">
+              <h1 class="display-4 text-center">Linux</h1>
+              <p class="text-info text-center">I have experience using Ubuntu 16.0.4 and the linux shell to set up basic Local Area Netoworks. I am proficient at using GNS3 to correctly map out and plan a network. on top of this I have experience on the windows side of things with Windows Server 2008.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-md-4">
+          <img  class="rounded mx-auto d-block img-fluid" src="me.png" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="contact" class="text-center display-3"><b>Contact</b></h2>
+    </div>
+  </div>
+    <div class="row">
+
+      <div class="col-md-8">
+        <div class="col-md-10">
+            <h1 style="padding-left: 20px" class="display-4">Email: <a href="mailto:keekunz@gmail.com">Keekunz@gmail.com</a></h1>
+        </div>
+
+
+
+
+    <br><br><br><br><br>
+      <div class="row">
+        <div class="col-md-8">
+          <h1 style="padding-left: 20px" class="display-4">Phone: (845)-464-3900</h1>
+        </div>
+
+      </div>
+      <br><br><br><br><br>
+      <div class="row">
+        <div class="col-md-8">
+          <h1 style="padding-left: 20px" class="display-4"> <a href="https://www.facebook.com/keenan.kunzelman">Facebook</a>, <a href="https://www.instagram.com/keenankunzelman/?hl=en">Instagram</a><br> <a href="https://www.linkedin.com/in/keenan-kunzelman-1667b0113/">Linkedin</a>, <a href="https://www.facebook.com/keenan.kunzelman">Github</a> </h1>
+        </div>
+
+      </div>
+
+    </div>
+    <div id="hello" class="col-md-4">
+      <p style="font-size: 30px" class="lead text-center">If you would like to get in contact with me you can use any of the methods provided on the left. Whether it's a buisness question or just wanting to get to know me feel free to send me an email.(<em>Just remember I am on Eastern Standard Time.</em>) If you would like to see some of the stuff I do outside of computers such as skateboarding and snowboarding check out my instagram!</p>
+    </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  </div>
+
+  </body>
+</html>
