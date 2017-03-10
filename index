@@ -9,10 +9,22 @@
     <title>
     </title>
     <style media="screen">
-
+li{
+  color:white;
+}
 .jumbotron{
   background-image: url(jumbo.png);
   background-size: 100%
+}
+#btn{
+
+padding-left: 30px;
+
+}
+
+a:
+a:active{
+  color: rgb(88, 88, 88);
 }
     #lol{
 
@@ -22,45 +34,41 @@
 
       min-height: 1000px;
     }
+
+    body {
+  position: relative;
+   }
     </style>
   </head>
+  <body id="top" data-spy="scroll" data-target="#navbar-example">
+    <nav class="navbar  bg-inverse  fixed-top " role="navigation" id="navbar-example">
 
-<!--my comment-->
+      <ul class="nav" role="tablist">
+        <li>
+        <a id="btn" class="nav-link text-muted " href="#top"><h4 class=>About</h4></a>
+        </li>
+        <li>
+        <a id="btn3" class=" nav-item nav-link text-muted " href="#top"><h4 class=>Contact</h4></a>
+        </li>
+        <li>
+        <a id="btn2" class=" nav-item nav-link text-muted " href="#top"><h4 class=>Portfolio</h4></a>
+        </li>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      </ul>
 
-
-
-    <div class="container-fluid">
-
-<div class="container-fluid">
-  <nav class="navbar navbar-inverse bg-inverse fixed-top " role="navigation">
-    <div class="row">
-      <div class="col-md-8">
-
-      </div>
-    <div class="col-lg-1">
-
-    </div>
-    <div class="col-lg-1">
-      <a href="#About" id="btn" class="btn btn-outline-secondary"> About</a>
-    </div>
-    <div class="col-lg-1">
-      <a href="#Port" id="btn3" class="btn btn-outline-secondary"> Contact</a>
-    </div>
-    <div class="col-lg-1">
-      <a href="#Port" id="btn2" class="btn btn-outline-secondary"> Portfolio</a>
-
-    </div>
+  </nav>
 
 
 
-    </div>
 
-</nav>
+
+
+
+
 <script type="text/javascript">
 
 $(function() {
+  $('body').scrollspy({ target: '#navbar-example' })
 var contactpos = $("#contact").offset();
 var p = $("#portf").offset();
 
@@ -98,7 +106,9 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
 
 </script>
 </div>
-<a id="About"></a>
+<div id="About">
+
+
 <div  class="jumbotron">
   <h1 style="color: white; padding-top: 40px" class=" text-lg-center display-3"><b>Keenan Kunzelman</b></h1>
 
@@ -137,7 +147,7 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
           <img  class="rounded mx-auto d-block img-fluid" src="me.png" alt="">
         </div>
       </div>
-
+</div>
     </div>
 
     </div>
@@ -149,7 +159,7 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
 <br>
 <br>
 
-
+<div id="Contact">
   <div class="row">
     <div class="col-md-12">
       <h2 id="contact" class="text-center display-3"><b>Contact</b></h2>
@@ -188,6 +198,7 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
     </div>
 
   </div>
+</div>
 </div>
 
 
