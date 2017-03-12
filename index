@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 
@@ -40,7 +41,10 @@ a:active{
    }
     </style>
   </head>
-  <body id="top" data-spy="scroll" data-target="#navbar-example">
+  <div class="container">
+
+
+  <body id="top">
     <nav class="navbar  bg-inverse  fixed-top " role="navigation" id="navbar-example">
 
       <ul class="nav" role="tablist">
@@ -70,7 +74,7 @@ a:active{
 $(function() {
   $('body').scrollspy({ target: '#navbar-example' })
 var contactpos = $("#contact").offset();
-var p = $("#portf").offset();
+var portfoliopos = $("#portfolio").offset();
 
 
 
@@ -87,13 +91,13 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
     $("#btn2").on("click", function(e){
     e.preventDefault();
 
-    $("html, body").animate({ scrollTop: (p.top - 43) } , 'swing');
+    $("html, body").animate({ scrollTop: (portfoliopos.top - 56) } , 'swing');
 
         });
         $("#btn3").on("click", function(e){
         e.preventDefault();
 
-        $("html, body").animate({ scrollTop: contactpos.top  }, 'swing');
+        $("html, body").animate({ scrollTop: contactpos.top - 56 }, 'swing');
 
             });
 
@@ -109,7 +113,7 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
 <div id="About">
 
 
-<div  class="jumbotron">
+<div style="display:block, margin:auto" class="jumbotron">
   <h1 style="color: white; padding-top: 40px" class=" text-lg-center display-3"><b>Keenan Kunzelman</b></h1>
 
 
@@ -135,7 +139,7 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
             </div>
             <div class="col-md-4">
               <h1 class="display-4 text-center">Linux</h1>
-              <p class="text-info text-center">I have experience using Ubuntu 16.0.4 and the linux shell to set up basic Local Area Netoworks. I am proficient at using GNS3 to correctly map out and plan a network. on top of this I have experience on the windows side of things with Windows Server 2008.</p>
+              <p class="text-info text-center">I have experience using Ubuntu 16.0.4 and the bash shell to set up basic Local Area Netoworks. I am proficient at using GNS3 to correctly map out and plan a network. on top of this I have experience on the windows side of things with Windows Server 2008.</p>
             </div>
           </div>
         </div>
@@ -198,10 +202,39 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
     </div>
 
   </div>
-</div>
+
 </div>
 
+</div>
+<br><br><br><br><br>
+  <h2 id="portfolio" class="text-center display-3"><b>Portfolio</b></h2>
 
+<div class="row">
+
+  <div class="col-md-4">
+
+    <h2 class="display-4 text-center"><a href="https://github.com/KeenanKunzelman/Class-Cancellations">Do I Have Class Today?</a></h2>
+    <p class="lead text-center">This is a short little Python script I wrote to solve the problem of driving 45 minutes to a cancelled class at my College. They have no form of notifying students of class cancellations other than putting them on their website and it is up to the student to check. This led me to write a script that would send me a textmessage every time I had a cancelled class.</p>
+  </div>
+
+  <div class="col-md-4">
+    <h2 class="display-4 text-center"><a href="https://github.com/KeenanKunzelman/Class-Cancellations">Mohonk Mountain-House</a></h2>
+    <p class="lead text-center">This is my final project for one of my classes. It is a UWP application written in C# and XAML in the .NET framework. It is a mockup application for a buisness that is in the hudson valley. It showcases all the tools we learned over the semester such as GPS, Frame Navigation, use of the camera, and much more.</p>
+  </div>
+  <div class="col-md-4">
+    <h2 class="display-4 text-center"><a href="https://github.com/KeenanKunzelman/Class-Cancellations">Do I Have Class Today?</a></h2>
+    <p class="lead text-center">This is a short little Python script I wrote to solve the problem of driving 45 minutes to a cancelled class at my College. They have no form of notifying students of class cancellations other than putting them on their website and it is up to the student to check. This led me to write a script that would send me a textmessage every time I had a cancelled class.</p>
+  </div>
+<div class="row">
+  <div class="col-md-6">
+    <img class="rounded mx-auto d-block img-fluid" src="Javascript.jpg" alt="">
+  </div>
+  <div class="col-md-6">
+<img class="rounded mx-auto d-block img-fluid" src="Jquery.jpg" alt="">
+  </div>
+</div>
+</div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
@@ -211,4 +244,5 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
   </div>
 
   </body>
+    </div>
 </html>
