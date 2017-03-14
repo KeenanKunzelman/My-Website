@@ -132,16 +132,16 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
           <p class="text-center lead">My Name is Keenan Kunzelman and I am a Computer Information Systems student at Dutchess Community College. I am soon to be transferring into a Computer Science program at Suny Plattsburgh. I have been learning C#, Python, HTML, CSS, Bootstrap, JavaScript, JQuery and basic networking principles over the past few years. In my free time outside of learning new development skills, I enjoy Skateboarding, Snowboarding, and working on cars with my father.</p>
           <div class="row">
             <div class="col-md-4">
-              <h1 class="display-4 text-center">C#</h1>
-              <p class="text-info text-center"> I have been learning and writing C# in a .NET environment for the past year at my college. I have  created projects ranging from basic console applications, windows forms applications, and  Windows UWP applications. From a starting point of learning COBOL I have grown to love C# and the power of Object Oriented Programming.</p>
+              <h1 class="display-4 text-center text-info">C#</h1>
+              <p class=" text-center"> I have been learning and writing C# in a .NET environment for the past year at my college. I have  created projects ranging from basic console applications, windows forms applications, and  Windows UWP applications. From a starting point of learning COBOL I have grown to love C# and the power of Object Oriented Programming.</p>
             </div>
             <div id="portf"class="col-md-4">
-              <h1  class="display-4 text-center">Python</h1>
-              <p class="text-info text-center">Before I enrolled at Dutchess Community College I began taking a free computer science course taught in the Python programming language at Udacity. After a few months of hard work I was able to solve one of my real world problems with a Python Script. I wrote a few lines of python code that used twillio <em>(a library for sending SMS messages)</em> to check my schools website for cancelled classes and text me if I had a class cancelled.</p>
+              <h1  class="display-4 text-center text-info">Python</h1>
+              <p class="  text-center text-lg-center">Before I enrolled at Dutchess Community College I began taking a free computer science course taught in the Python programming language at Udacity. After a few months of hard work I was able to solve one of my real world problems with a Python Script. I wrote a few lines of python code that used twillio <em>(a library for sending SMS messages)</em> to check my schools website for cancelled classes and text me if I had a class cancelled.</p>
             </div>
             <div class="col-md-4">
-              <h1 class="display-4 text-center">JavaScript</h1>
-              <p class="text-info text-center">I been learning and writing JavaScript and JQuery to create dynamic front end webpages. I learned how to target the DOM and use many different types of animations through taking courses online. I have recieved two certifications from Sololearn, one for JavaScript, and one for JQuery. </p>
+              <h1 class="display-4 text-center text-info">JavaScript</h1>
+              <p class="  text-center">I been learning and writing JavaScript and JQuery to create dynamic front end webpages. I learned how to target the DOM and use many different types of animations through taking courses online. I have recieved two certifications from Sololearn, one for JavaScript, and one for JQuery. </p>
             </div>
 
           </div>
@@ -192,7 +192,7 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
       <br><br><br>
       <div class="row">
         <div class="col-md-8">
-          <h1 style="padding-left: 20px" class="text-center display-4"> <a href="https://www.facebook.com/keenan.kunzelman">Facebook</a>, <a href="https://www.instagram.com/keenankunzelman/?hl=en">Instagram</a><br> <a href="https://www.linkedin.com/in/keenan-kunzelman-1667b0113/">Linkedin</a>, <a href="https://www.facebook.com/keenan.kunzelman">Github</a> </h1>
+          <h1 style="padding-left: 20px" class="text-center display-4"> <a href="https://www.facebook.com/keenan.kunzelman">Facebook</a>, <a href="https://www.instagram.com/keenankunzelman/?hl=en">Instagram</a><br> <a href="https://www.linkedin.com/in/keenan-kunzelman-1667b0113/">Linkedin</a>, <a href="https://github.com/KeenanKunzelman">Github</a> </h1>
         </div>
 
       </div>
@@ -224,7 +224,7 @@ $("html, body").animate({ scrollTop: "0px" }, 'swing');
     <p class="lead text-center">This is my final project for one of my classes. It is a UWP application written in C# and XAML in the .NET framework. It is a mockup application for a buisness that is in the hudson valley. It showcases all the tools we learned over the semester such as GPS, Frame Navigation, use of the camera, and much more.</p>
   </div>
   <div class="col-md-4">
-    <h2 class="display-4 text-center"><a href="https://github.com/KeenanKunzelman/Class-Cancellations">Tribute Webpage</a></h2>
+    <h2 class="display-4 text-center"><a href="http://codepen.io/Keekunz/pen/mPGKqR">Tribute Webpage</a></h2>
     <p class="lead text-center">A basic webpage using just HTML and CSS along with Bootstrap4 to create a responsive and basic webpage. I used this to teach myself the basics of webdesign.</p>
   </div>
 
