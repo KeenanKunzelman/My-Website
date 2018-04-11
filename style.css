@@ -10,7 +10,9 @@ padding-left: 30px;
 #nav {
   max-height: 20px;
 }
-
+.project{
+  padding: 30px;
+}
 .nav-link:active{
   text-decoration: none;
 }

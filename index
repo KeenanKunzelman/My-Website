@@ -27,6 +27,9 @@
           <a id="btn2" class=" nav-item nav-link  text-secondary " href="#top"><h4>Contact</h4></a>
         </li>
         <li>
+          <a id="btn5" class="nav-item nav-link text-secondary" href="#top"><h4>Certifications</h4></a>
+        </li>
+        <li>
           <a id="btn3" class=" nav-item nav-link  text-secondary" href="#top"><h4>Portfolio</h4></a>
         </li>
       </ul>
@@ -195,23 +198,10 @@
 
 
 <br><br><br><br><br>
-  <h2 id="portfolio" class="text-center display-3"><b>Portfolio</b></h2>
-<div class="row">
-  <div class="col-md-4">
-    <h2 class="display-4 text-center"><a class="text-info" href="https://github.com/KeenanKunzelman/Class-Cancellations">Do I Have Class Today?</a></h2>
-    <p class="lead text-center">This is a short little Python script I wrote to solve the problem of driving 45 minutes to a cancelled class at my College. They have no form of notifying students of class cancellations other than putting them on their website and it is up to the student to check. This led me to write a script that would send me a textmessage every time I had a cancelled class.</p>
-  </div>
-  <div class="col-md-4">
-    <h2 class="display-4 text-center"><a class="text-info" href="https://github.com/KeenanKunzelman/Class-Cancellations">Mohonk Mountain-House</a></h2>
-    <p class="lead text-center">This is my final project for one of my classes. It is a UWP application written in C# and XAML in the .NET framework. It is a mockup application for a buisness that is in the hudson valley. It showcases all the tools we learned over the semester such as GPS, Frame Navigation, use of the camera, and much more.</p>
-  </div>
-  <div class="col-md-4">
-    <h2 class="display-4 text-center"><a class="text-info" href="http://codepen.io/Keekunz/pen/mPGKqR">Tribute Webpage</a></h2>
-    <p class="lead text-center">A basic webpage using just HTML and CSS along with Bootstrap4 to create a responsive and basic webpage. I used this to teach myself the basics of webdesign.</p>
-  </div>
+
 <div class="row">
   <div class="col-md-12">
-    <h2 id="portfolio" class="text-center display-3"><b>Certifications</b></h2>
+    <h2 id="certs" class="text-center display-3"><b>Certifications</b></h2>
   </div>
   <div class="col-md-6">
     <img class="rounded mx-auto d-block img-fluid" src="Javascript.jpg" alt="">
@@ -220,6 +210,22 @@
 <img class="rounded mx-auto d-block img-fluid" src="Jquery.jpg" alt="">
   </div>
 </div>
+
+  <h2 id="portfolio" class="text-center display-3"><b>Portfolio</b></h2>
+<!-- <div id="row0" class="projRow row">
+  <div class="col-md-4 project">
+    <h2 class="display-4 text-center"><a class="text-info" href="https://github.com/KeenanKunzelman/Class-Cancellations">Do I Have Class Today?</a></h2>
+    <p class="lead text-center"></p>
+  </div>
+  <div class="col-md-4 project">
+    <h2 class="display-4 text-center"><a class="text-info" href="https://github.com/KeenanKunzelman/Class-Cancellations">Mohonk Mountain-House</a></h2>
+    <p class="lead text-center"></p>
+  </div>
+  <div class="col-md-4 project">
+    <h2 class="display-4 text-center"><a class="text-info" href="http://codepen.io/Keekunz/pen/mPGKqR">Tribute Webpage</a></h2>
+    <p class="lead text-center">A basic webpage using just HTML and CSS along with Bootstrap4 to create a responsive and basic webpage. I used this to teach myself the basics of webdesign.</p>
+  </div>
+</div> -->
 </div>
 <br>
 </div>
