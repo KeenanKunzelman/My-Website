@@ -1,0 +1,40 @@
+.jumbotron{
+  background-image: url(jumbo.png);
+  background-size: 100%
+
+}
+#btn{
+
+padding-left: 30px;
+
+}
+
+a:
+a:active{
+  color: rgb(88, 88, 88);
+}
+    #lol{
+
+      min-height: 1000px;
+    }
+    #Port{
+
+      min-height: 1000px;
+    }
+
+    body {
+
+  position: relative;
+   }
+#me{
+  font-size: 30px;
+}
+
+#skill{
+  padding: 27px;
+}
+#skillDesc{
+
+  font-size: 22px;
+
+}
