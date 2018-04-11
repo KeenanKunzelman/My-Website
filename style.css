@@ -6,11 +6,17 @@
 #btn{
 
 padding-left: 30px;
+}
+#nav {
+  max-height: 20px;
+}
 
+.nav-link:active{
+  text-decoration: none;
 }
 
 a:
-a:active{
+a:visited{
   color: rgb(88, 88, 88);
 }
     #lol{
