@@ -114,8 +114,7 @@
             <div id="skill" class="col-md-4">
               <h1 class="display-5 text-center text-info">Linux</h1>
               <p id="skillDesc" class=" text-center">I have to thank my amazing professor Sthephen Legget at Dutchess Community College for introducing me to linux and the open source community.
-              I have since completly altered the way I think about Operating Systems. On a daily basis I run a popular Debian based distro called Ubuntu. I also became heavily invested in learning
-            and using another Debian distro called Kali Linux. Kali Linux features a set of pre-installed penetration testing tools.</p>
+              I have since completly altered the way I think about Operating Systems. On a daily basis I run a popular Debian based distro called Ubuntu. </p>
             </div>
             <div id="skill" class="col-md-4">
               <h1  class="display-5 text-center text-info">Bootstrap</h1>
@@ -210,7 +209,7 @@
 <img class="rounded mx-auto d-block img-fluid" src="Jquery.jpg" alt="">
   </div>
 </div>
-
+<br><br><br><br><br>
   <h2 id="portfolio" class="text-center display-3"><b>Portfolio</b></h2>
 <!-- <div id="row0" class="projRow row">
   <div class="col-md-4 project">

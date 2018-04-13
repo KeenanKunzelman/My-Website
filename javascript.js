@@ -1,6 +1,7 @@
 
 $( document ).ready(function() {
   var extractedRepos = [];
+  
   var url = 'https://api.github.com/users/KeenanKunzelman/repos';
   $.ajax({
     url
