@@ -1,48 +1,115 @@
 .jumbotron{
   background-image: url(jumbo.png);
   background-size: 100%
-
 }
-#btn{
 
+#btn{
 padding-left: 30px;
 }
-#nav {
-  max-height: 20px;
-}
 .project{
-  padding: 30px;
+  padding: 10px;
+
 }
-.nav-link:active{
-  text-decoration: none;
+#cert{
+  padding-top: 10px
 }
 
-a:
-a:visited{
-  color: rgb(88, 88, 88);
-}
-    #lol{
 
-      min-height: 1000px;
+
+
+@media all and (min-width: 960px) {
+    .nav-link{
+      font-size: 22px;
     }
-    #Port{
+    #header{
+      color: white;
 
-      min-height: 1000px;
+      margin-top: 50px;
+      font-size: 99px;
+
+    }
+    #me{
+        font-size:33px;
+    }
+    #skillDesc{
+      font-size: 28px;
+    }
+    h1{
+      font-size: 40px;
     }
 
-    body {
+    #skill{
+      padding: 27px;
+    }
+    .projdescription{
+      font-size: 28px;
+    }
+    .projecttitle{
 
-  position: relative;
-   }
-#me{
-  font-size: 30px;
+      font-size: 32px;
+    }
 }
 
-#skill{
-  padding: 27px;
-}
-#skillDesc{
+@media all and (max-width: 959px) and (min-width: 600px) {
+    #header{
+      margin-top: 35px;
+      color: white;
 
-  font-size: 22px;
+
+      font-size:49px;
+    }
+    #me{
+        font-size: 20px;
+    }
+    #skillDesc{
+      font-size: 22px;
+    }
+    h1{
+      font-size: 30px;
+    }
+    #skill{
+      padding: 10px;
+    }
+    .projdescription{
+      font-size: 20px;
+    }
+    .projecttitle{
+      font-size: 26px;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+  #aboutme{
+    padding-top: 14px;
+  }
+
+  #header{
+    padding-top: 55px;
+    color: white;
+
+    font-size:38px;
+  }
+    #me{
+        font-size: 18px;
+    }
+    .projdescription {
+      font-size: 16px;
+    }
+    .projecttitle{
+      font-size: 20px;
+    }
+    #skillDesc{
+      font-size: 14px;
+    }
+    h1{
+      font-size: 20px;
+    }
+    .my-headings{
+      font-size: 37px
+    }
+    #skill{
+      padding: 3px;
+    }
+
 
 }
