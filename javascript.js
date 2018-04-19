@@ -1,4 +1,14 @@
 
+$( document ).ready(function() {
+  $("#icon").click(function(){
+    $("#actualskill").fadeOut()
+    $("#actualskill").empty()
+    $("#actualskill").append("<h1>title</h1>")
+    $("#actualskill").append("<p>description</p>")
+    $("#actualskill").fadeIn()
+  })
+});
+
 
 var size = $( window ).width();
 var appendContent = (repos,row, index) => {
