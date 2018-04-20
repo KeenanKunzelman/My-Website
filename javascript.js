@@ -1,12 +1,64 @@
+function checkDisplay(title, desc) {
+  
+  if ($("#actualskill").css('display') === 'none') {
+    $("#actualskill").append(`<h1 class="display-4 text-info" >${title}</h1>`);
+    $("#actualskill").append(`<p id="skillDesc" class="col-8 offset-2 lead" >${desc}</p>`);
+    $("#actualskill").slideDown();
+   
+  }else{
+  
+    $("#actualskill").fadeOut("slow" ,function() {
+      $("#actualskill").empty();
+      $("#actualskill").append(`<h1 class="display-4 text-info" >${title}</h1>`);
+      $("#actualskill").append(`<p id="skillDesc" class="col-8 offset-2 lead" >${desc}</p>`);
+      $("#actualskill").fadeIn('slow');
+    });
+  
+   
+  }
+}
+
 
 $( document ).ready(function() {
-  $("#icon").click(function(){
-    $("#actualskill").fadeOut()
-    $("#actualskill").empty()
-    $("#actualskill").append("<h1>title</h1>")
-    $("#actualskill").append("<p>description</p>")
-    $("#actualskill").fadeIn()
+  $(".fontawesomebtn").click(function(){
+    checkDisplay("Font Awesome", "This site along with many others I have built are constructed using Boostrap 4 along with Font Awesome. I love developing with Bootstrap because of how easy it is to develop a completly responsive design.");
+  });
+
+  $(".pythonbtn").click(function(){
+    checkDisplay("Python", "I began learning python back in 2016 and have built many projects since. One of my favorite Python programs I named class-cancelations. The program alerted me through text when I had a canceled class at school using data scraped from the university's website.");
   })
+
+  $(".htmlbtn").click(function(){
+    checkDisplay("HTML", "HTML along with COBOL are the first to 'programming' languages I was ever introduced then. As you may have guessed I haven't touched COBOL since the class I had to take on it, but I definetly use HTML on a daily basis to build websites and web apps.");
+  })
+
+  $(".jsbtn").click(function(){
+    checkDisplay("JavaScript", "If i had to choose one language to be my favorite, hands down it would be JavaScript. I have been learning and applying JavaScript along with a few frameworks over the past few years. The language is so powerful in todays day in age and can truly do anything.");
+  })
+
+  $(".fccbtn").click(function(){
+    checkDisplay("Free Code Camp", "This isn't exactly a skill but I have been diligently working towards completing Free Code Camps Front End Developer Certification. I am over 60% through the coursework and have learned alot about how to develop responsive web applications.");
+  })
+
+  $(".linuxbtn").click(function(){
+    checkDisplay("Linux", "I have my amazing professor Stephen Legget to thank for introducing me to linux. I have gone From attending a basic Data Communications class with labs taught on Ubuntu to running a highly customized distrobution of Fedora linux as a daily computer. I love the open source community and all it has done for technology");
+  })
+
+  $(".githubbtn").click(function(){
+    checkDisplay("Git Hub", "Shortly after begining my programming career I realized that I needed some sort of version control software to manage my projects. I soon after learned Git and began pushing all my code to GitHub. Although I have not really contributed to any open source projects I would really love to and plan to do so in the future.");
+  })
+  $(".nodebtn").click(function(){
+    checkDisplay("node.js", "I use font awesome to make my website cool");
+  })
+  
+
+  // $("#icon").click(function(){
+  //   $("#actualskill").fadeOut()
+  //   $("#actualskill").empty()
+  //   $("#actualskill").append("<h1>title</h1>")
+  //   $("#actualskill").append("<p>description</p>")
+  //   $("#actualskill").fadeIn()
+  // })
 });
 
 

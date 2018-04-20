@@ -114,7 +114,18 @@ padding-left: 30px;
   #aboutme{
     padding-top: 14px;
   }
-
+  #icon{
+    font-size: 50px;
+    padding-top: 15px;
+    height: 80px;
+    width: 80px;
+  }
+  #icon:hover{
+    font-size: 50px;
+    padding-top: 12px;
+    height: 80px;
+    width: 80px;
+  }
   #header{
     padding-top: 55px;
     color: white;
