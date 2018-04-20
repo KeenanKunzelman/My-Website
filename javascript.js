@@ -1,16 +1,16 @@
 function checkDisplay(title, desc) {
   
   if ($("#actualskill").css('display') === 'none') {
-    $("#actualskill").append(`<h1 class="display-4 text-info" >${title}</h1>`);
-    $("#actualskill").append(`<p id="skillDesc" class="col-8 offset-2 lead" >${desc}</p>`);
+    $("#actualskill").append(`<h1 id="title" class="display-5 text-info" >${title}</h1>`);
+    $("#actualskill").append(`<p id="skillDesc" class="col-12 lead" >${desc}</p>`);
     $("#actualskill").slideDown();
    
   }else{
   
     $("#actualskill").fadeOut("slow" ,function() {
       $("#actualskill").empty();
-      $("#actualskill").append(`<h1 class="display-4 text-info" >${title}</h1>`);
-      $("#actualskill").append(`<p id="skillDesc" class="col-8 offset-2 lead" >${desc}</p>`);
+      $("#actualskill").append(`<h1 class="display-5 text-info" >${title}</h1>`);
+      $("#actualskill").append(`<p id="skillDesc" class="col-12 lead" >${desc}</p>`);
       $("#actualskill").fadeIn('slow');
     });
   
@@ -154,4 +154,5 @@ function scroll(button, destination) {
     scroll("#btn3",  "port-sec" );
     scroll("#btn4", "skills" );
     scroll("#btn5", "certs" );
+    scroll("#btn6", "resume");
 });

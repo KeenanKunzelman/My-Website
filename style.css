@@ -3,6 +3,14 @@
   background-size: 100%
 }
 
+#myresume{
+  -webkit-box-shadow: 0 0 15px #aaa;
+        box-shadow: 0 0 15px #aaa;
+
+}
+
+
+
 #btn{
 padding-left: 30px;
 }
@@ -17,31 +25,52 @@ padding-left: 30px;
 #actualskill{
   display: none;
 }
+
+#media{
+  padding-top: 11px;
+  color: white;
+  text-decoration: none;
+  height: 100px;
+  width: 100px;
+  background: #2E2E2E;
+  border-radius: 12px;
+  border: 4px solid #2E2E2E;
+  transition: border .3s ease-in-out, background .3s ease-in-out,  color .5s ease-in-out;
+
+}
+#media:hover{
+  opacity: .9;
+  color: black;
+  padding-top: 11px;
+  background: white;
+  border: 4px solid #2E2E2E;
+  transition: border .3s ease-in-out, background .3s ease-in-out,   color .5s ease-in-out;
+
+}
+
 #icon{
   color: white;
   font-size: 69px;
   text-align: center;
-  padding-top: 18px;
-  background-color: #5bc0de;
+  padding-top: 17px;
+  background-color: #2E2E2E;
   height: 110px;
   width: 110px;
   border-radius: 50%;
+  border: 4px solid #2E2E2E;
   transition: border .3s ease-in-out, background .3s ease-in-out,  color .2s ease-in-out;
 }
 
 #icon:hover{
   color: black;
-  padding-top: 0px;
+  padding-top: 18px;
   font-size: 69px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 17px;
   background: white;
- 
   border-radius: 50%;
-
-  border: 4px solid #5bc0de;
-  
-  transition: border .3s ease-in-out, background .3s ease-in-out, padding-top .3s ease-in-out,  color .5s ease-in-out;
+  border: 4px solid #2E2E2E;
+  transition: border .3s ease-in-out, background .3s ease-in-out,  color .5s ease-in-out;
 }
 
 
@@ -111,20 +140,41 @@ padding-left: 30px;
 }
 
 @media all and (max-width: 599px) and (min-width: 320px) {
+  title{
+    font-size: 48px; 
+  }
+  #skillDesc{
+    font-size: 14px;
+  }
+  
   #aboutme{
     padding-top: 14px;
   }
   #icon{
     font-size: 50px;
-    padding-top: 15px;
+    padding-top: 10px;
     height: 80px;
     width: 80px;
   }
   #icon:hover{
     font-size: 50px;
-    padding-top: 12px;
+    padding-top: 10px;
     height: 80px;
     width: 80px;
+  }
+  
+
+  #media{
+    font-size: 40px;
+    padding-top: 4px;
+    height: 60px;
+    width: 60px;
+  }
+  #media:hover{
+    font-size: 40px;
+    padding-top: 4px;
+    height: 60px;
+    width: 60px;
   }
   #header{
     padding-top: 55px;
